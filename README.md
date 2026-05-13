@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# survey
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/survey&target_branch=16.0)
 [![Pre-commit Status](https://github.com/OCA/survey/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/survey/actions/workflows/pre-commit.yml?query=branch%3A16.0)
 [![Build Status](https://github.com/OCA/survey/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/survey/actions/workflows/test.yml?query=branch%3A16.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/survey-16-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/survey-16-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# survey
 
 TODO: add repo description.
 
@@ -21,9 +22,15 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[partner_survey](partner_survey/) | 16.0.1.1.0 |  | Link partners with their survey results
+[survey_certification_branding](survey_certification_branding/) | 16.0.1.0.0 |  | This module enables customization of certification reports by allowing a custom logo and company name per certification.
+[survey_contact_generation](survey_contact_generation/) | 16.0.1.1.2 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Generate new contacts from surveys
+[survey_formio](survey_formio/) | 16.0.1.0.0 |  | This module allows the generation of a form.io compatible JSON for a survey.
+[survey_link_base](survey_link_base/) | 16.0.1.0.0 |  | This addon creates a mixin and a wizard to enable the generation of surveys from other models.
 [survey_question_type_binary](survey_question_type_binary/) | 16.0.1.0.0 |  | This module add binary field as question type for survey page
 [survey_question_type_five_star](survey_question_type_five_star/) | 16.0.1.0.0 |  | This module adds five stars rating as question type for survey page
 [survey_question_type_nps](survey_question_type_nps/) | 16.0.1.0.0 |  | This module add nps rating as question type for survey page
+[survey_resource_booking](survey_resource_booking/) | 16.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Access survey answers from resource booking
 [survey_xlsx](survey_xlsx/) | 16.0.1.0.0 |  | XLSX Report to show the survey results
 
 [//]: # (end addons)
